@@ -7,8 +7,18 @@
 */
 
 #include <stdio.h>
+#define pulgadasMetros 0.0254
 
 int main(void){
+
+   float cantidadMetrosRequerida, cantidadPulgadas;
+
+   printf("Ingrese la cantidad de metros Requerida: \a");
+   scanf("%f", &cantidadMetrosRequerida);
+
+   cantidadPulgadas = cantidadMetrosRequerida / pulgadasMetros;
+
+   printf("La cantidad de metros equivale a: %.2f pulgadas", cantidadPulgadas);
 
    return 0;
 }

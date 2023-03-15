@@ -9,8 +9,6 @@
 #define PI 3.1416
 
 int main(void){
-
-
    // double %lf long, double %Lf, short %hd
 
    double radio, circunferencia, area, diametro;

@@ -5,8 +5,8 @@ usuario, e imprima la suma, el producto, la diferencia, y el módulo de los dos 
 
 int main(void){
 
-   int number1, number2;
-   int module, multiply, sum;
+   int number1 = 0, number2 = 0;
+   int module = 0, multiply = 0, sum = 0;
 
    printf("Ingrese el primer digito: ");
    scanf("%i", &number1);
